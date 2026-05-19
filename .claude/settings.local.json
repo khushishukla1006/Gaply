@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./mvnw -q -DskipTests compile)",
+      "Bash(npx tsc *)",
+      "Bash(/Users/khushi.sshukla/Desktop/Vibe_Coding/frontend/node_modules/.bin/tsc --noEmit -p /Users/khushi.sshukla/Desktop/Vibe_Coding/frontend/tsconfig.json)",
+      "Bash(/Users/khushi.sshukla/Desktop/Vibe_Coding/frontend/node_modules/.bin/tsc --noEmit -p tsconfig.json)",
+      "Bash(echo \"---tsc exit: $?---\")",
+      "Bash(echo \"---mvn exit: $?---\")",
+      "Bash(npm run *)",
+      "Bash(echo \"---lint exit: $?---\")",
+      "Bash(./mvnw -DskipTests -q compile -Dmaven.compiler.showWarnings=true -Dmaven.compiler.showDeprecation=true)",
+      "Bash(/Users/khushi.sshukla/Desktop/Vibe_Coding/frontend/node_modules/.bin/eslint . --ext .ts,.tsx)",
+      "Bash(echo \"---eslint exit: $?---\")",
+      "Bash(curl -sS -w \"\\\\n---HTTP %{http_code}\\\\n\" 'https://api.semanticscholar.org/graph/v1/paper/search?query=diffusion%20models&limit=3&fields=title,abstract,authors,year,url,venue,externalIds')"
+    ]
+  }
+}
