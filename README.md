@@ -12,7 +12,6 @@ Discover, understand, analyze, and converse with academic papers — all in one 
 [![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.5-6DB33F?logo=springboot&logoColor=white)](https://spring.io/projects/spring-boot)
 [![Java](https://img.shields.io/badge/Java-17-007396?logo=openjdk&logoColor=white)](https://openjdk.org/)
 [![OpenAI](https://img.shields.io/badge/OpenAI-API-412991?logo=openai&logoColor=white)](https://platform.openai.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](#-license)
 
 </div>
 
@@ -379,12 +378,6 @@ For larger changes, please open an issue first to discuss what you'd like to cha
 - [**Radix UI**](https://www.radix-ui.com/) & [**Lucide**](https://lucide.dev/) — accessible primitives and icons
 - [**Spring Boot**](https://spring.io/projects/spring-boot) and the [**Next.js**](https://nextjs.org/) teams — for genuinely great DX
 - **Taylor & Francis** — for hosting the Vibe Coding Hackathon and championing AI-assisted development
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
 ---
 
